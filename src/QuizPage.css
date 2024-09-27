@@ -1,0 +1,24 @@
+.coins-display {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    color: yellow;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .animate-coins {
+    transform: scale(1.5);
+    animation: bounce 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: scale(1.5);
+    }
+    50% {
+      transform: scale(1.8);
+    }
+  }
+  
